@@ -1,6 +1,7 @@
 QT += core
 QT -= gui
-
+target.path=/usr/bin
+INSTALLS += target
 CONFIG += c++11
 
 TARGET = detectUSB
